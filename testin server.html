@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example Website</title>
+    <style>
+      /* Styles for the header sections */
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #f5f5f5;
+      }
+      .url-section img {
+        height: 50px;
+      }
+      .menu-section ul {
+        list-style: none;
+        display: flex;
+      }
+      .menu-section li {
+        margin-right: 20px;
+      }
+      .login-section a {
+        padding: 10px 20px;
+        background-color: #7ed7e7;
+        color: #fff;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+      .login-section a:hover {
+        background-color: #917ee7;
+      }
+
+
+      .banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  padding: 160px;
+}
+
+.image-section {
+  flex-basis: 40%;
+  color: #7ed7e7;
+}
+
+.image-section img {
+  max-width: 100%;
+}
+
+.text-section {
+  flex-basis: 60%;
+  color: #ffffff;
+}
+.paragraph {
+  
+  width: 500px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Optional: add hover effects to the banner */
+.banner:hover {
+  background-color: #1cacb7;
+}
+
+.banner:hover h2 {
+  color: #cecece;
+}
+
+.banner:hover li {
+  color: #ff6600;
+}
+@keyframes float {
+			0% {
+				transform: translateY(0);
+			}
+			50% {
+				transform: translateY(-20px);
+			}
+			100% {
+				transform: translateY(0);
+			}
+		}
+		.floating-text {
+      padding-top: 120px;
+      padding-bottom: 120px;
+			animation-name: float;
+			animation-duration: 3s;
+			animation-timing-function: ease-in-out;
+			animation-iteration-count: infinite;
+      text-align: center;
+		}
+    .paragraph2 {
+      background-color: #000000;
+      width: 400px;
+      padding: 20px;
+border-style: dotted;
+      border-color: #7ed7e7;
+      -ms-flex-align: baseline;
+      text-transform: capitalize;
+      align-items: center;
+      font-size: 13px;
+      line-height: 22px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #f5f5f5;
+    }
+
+    .container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+    
+		}
+		.box {
+			width: 30%;
+			border: 1px solid black;
+			padding: 10px;
+			margin-bottom: 120px;
+      margin-top: 120px;
+      box-shadow: #7ed7e7 12px;
+		}
+      
+    .container2 {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="url-section">
+        <a href="https://www.example.com">
+          <img src="logo.png" alt="Example website logo">
+        </a>
+      </div>
+
+      <nav class="menu-section">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="login-section">
+        <a href="#">Login</a>
+      </div>
+    </header>
+
+  
+
+    <div class="banner">
+      <div class="image-section">
+        <img src="image.jpg" alt="Banner Image">
+      </div>
+
+      <div class="text-section">
+
+        <h1>Heading</h1>
+
+        <p class="paragraph"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum mi ut mauris iaculis, sed ultrices elit aliquet. Ut auctor, ipsum auctor mattis fermentum, velit velit bibendum magna, ut accumsan odio libero non velit. Fusce quis massa nec justo dignissim convallis eget at lacus. </p>
+
+        <ul>
+          <li>Text 1</li>
+          <li>Text 2</li>
+          <li>Text 3</li>
+        </ul>
+
+      </div>
+    </div>
+  
+    <img src="E31BA2A3-42D8-4FA0-91B9-97FED8AA1C13.JPG">
+    
+
+    <h2 class="floating-text">Welcome to Example Website</h2>
+
+    <div class="container2">
+
+  
+    
+    <p class="paragraph2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel felis ante. Nam quis velit eu arcu auctor ultrices vel in mi. Sed vestibulum mauris quis sapien consectetur, eget lacinia nulla dignissim. Sed a purus quis nisl dignissim dictum non non augue. Duis condimentum est risus, sed scelerisque ipsum pulvinar id. Etiam tincidunt massa vitae vestibulum consequat. Duis gravida massa at dapibus aliquam.</p>
+  
+  
+    
+    <p class="paragraph2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel felis ante. Nam quis velit eu arcu auctor ultrices vel in mi. Sed vestibulum mauris quis sapien consectetur, eget lacinia nulla dignissim. Sed a purus quis nisl dignissim dictum non non augue. Duis condimentum est risus, sed scelerisque ipsum pulvinar id. Etiam tincidunt massa vitae vestibulum consequat. Duis gravida massa at dapibus aliquam.</p>
+
+    
+    
+    <p class="paragraph2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel felis ante. Nam quis velit eu arcu auctor ultrices vel in mi. Sed vestibulum mauris quis sapien consectetur, eget lacinia nulla dignissim. Sed a purus quis nisl dignissim dictum non non augue. Duis condimentum est risus, sed scelerisque ipsum pulvinar id. Etiam tincidunt massa vitae vestibulum consequat. Duis gravida massa at dapibus aliquam.</p>
+
+  </div>
+
+
+
+    <div class="container">
+      <div class="box">
+        <p>This is the first box section.</p>
+      </div>
+      <div class="box">
+        <p>This is the second box section.</p>
+      </div>
+      <div class="box">
+        <p>This is the third box section.</p>
+      </div>
+    </div>
+
+
+    <div style="background-color: #000000; padding: 22px; color: rgb(255, 255, 255); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 42px; border-radius: 22px;">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe amet aperiam nihil aut harum sed vero excepturi similique consectetur at ad non maxime officia nostrum, laudantium dolore, officiis numquam debitis?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe amet aperiam nihil aut harum sed vero excepturi similique consectetur at ad non maxime officia nostrum, laudantium dolore, officiis numquam debitis?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe amet aperiam nihil aut harum sed vero excepturi similique consectetur at ad non maxime officia nostrum, laudantium dolore, officiis numquam debitis?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe amet aperiam nihil aut harum sed vero excepturi similique consectetur at ad non maxime officia nostrum, laudantium dolore, officiis numquam debitis?
+
+      </p>
+    </div>
+
+
+  
+  </body>
+</html>
